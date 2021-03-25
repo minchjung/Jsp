@@ -19,11 +19,12 @@
 		String name = (String )session.getAttribute("name"); //<----It returns the Objects:  Object is  the Topest Class that enables to put the type on it. 
 		String uid = (String )session.getAttribute("uid");
 	%>
-</body>
+
 
 	<p>
 		sid: <%=sid %>
 		name: <%=name %>
 		uid:  <%=uid %>
 	</p>
+</body>
 </html>
